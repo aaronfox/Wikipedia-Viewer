@@ -1,0 +1,56 @@
+ /* color scheme thanks to https://color.adobe.com/Campfire-color-theme-2528696/edit/?copy=true&base=2&rule=Custom&selected=3&name=Copy%20of%20Campfire&mode=rgb&rgbvalues=0.345098,0.54902,0.494118,0.94902,0.890196,0.580392,0.94902,0.682353,0.447059,0.85098,0.392157,0.34902,0.54902,0.27451,0.27451&swatchOrder=0,1,2,3,4*/
+ 
+ body,
+ .container {
+   height: 100%;
+   background-color: #D96459;
+   font-family: 'PT-Sans', sans-serif;
+ }
+ 
+ #search-box {
+   border: 3px solid #8C4646;
+   font-size: 20px;
+   background-color: #D96459;
+   border-radius: 25px;
+   padding-left: 10px;
+   outline: none;
+   color: #F2E394;
+ }
+ 
+ a {
+   text-decoration: none !important;
+ }
+ 
+ .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .not-found {
+   font-size: 20px;
+   color: #3E524B;
+ }
+ 
+ .random-article-link {
+   color: #3e685d;
+   font-size: 18px;
+ }
+ 
+ .icon {
+   cursor: pointer;
+ }
+ 
+ .result-title {
+   font-size: 25px;
+ }
+ 
+ .result {
+   border: 1px solid #F2AE72;
+   background-color: #588C7E;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #F2E394;
+   border-radius: 5px;
+ }
